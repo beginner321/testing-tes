@@ -12,4 +12,6 @@ urlpatterns = patterns('',
      url(r'^add/$', 'web.views.plus'),
      url(r'^$', 'web.views.pre'),
      url(r'^subtract/$', 'web.views.minus')
+     url(r'^test/$', 'web.views.test'),
 )
+
